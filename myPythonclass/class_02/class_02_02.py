@@ -7,5 +7,5 @@
 
 #z字符串的替换 replace()
 str_1="lemon"
-res=str_1.replace("o","@")
+res=str_1.replace("o","test")
 print("替换后的结果：{}".format(res))
