@@ -52,6 +52,9 @@
 # print("{2}年龄{1}，数学考了{0}".format(name,age,score))
 
 str_1="hello"
+str_2="PYTHON"
 res=str_1.upper()
+res2=str_2.lower()
 print("转换成大写:{}".format(res))
+print("转换成小写：{}".format(res2))
 
