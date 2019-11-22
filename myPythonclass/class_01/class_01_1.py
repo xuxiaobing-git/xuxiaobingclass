@@ -42,14 +42,16 @@
 # print(str_1[1:10:2])
 
 
-age=30
-name="许小兵"
-score=99.99
-print(name+'，年龄'+str(age)+"岁")
-print(name+"，年龄",age,"岁")
-print("%s，年龄%d岁,数学考了%.2f分"%(name,age,score))
-print("{}年龄{}，数学考了{}".format(name,age,score))
-print("{2}年龄{1}，数学考了{0}".format(name,age,score))
+# age=30
+# name="许小兵"
+# score=99.99
+# print(name+'，年龄'+str(age)+"岁")
+# print(name+"，年龄",age,"岁")
+# print("%s，年龄%d岁,数学考了%.2f分"%(name,age,score))
+# print("{}年龄{}，数学考了{}".format(name,age,score))
+# print("{2}年龄{1}，数学考了{0}".format(name,age,score))
 
-
+str_1="hello"
+res=str_1.upper()
+print("转换成大写:{}".format(res))
 
