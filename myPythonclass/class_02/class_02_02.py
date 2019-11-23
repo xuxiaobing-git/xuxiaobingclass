@@ -6,6 +6,8 @@
 # @Project : xuxiaobingclass
 
 #z字符串的替换 replace()
-str_1="lemon"
-res=str_1.replace("o","test")
+str_1="lemonmmmo"
+res=str_1.replace("o","test",)
 print("替换后的结果：{}".format(res))
+res2=str_1.split('o')
+print("切割字符串：{}".format(res2))
