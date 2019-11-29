@@ -21,5 +21,6 @@ print(2 in a)
 #就是就是计算机
 #修改之后
 print(1 in a )
+print(0.05 in a)
 
 
