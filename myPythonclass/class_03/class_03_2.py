@@ -22,5 +22,6 @@ print(2 in a)
 #修改之后
 print(1 in a )
 print(0.05 in a)
+print(a)
 
 
