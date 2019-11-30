@@ -6,6 +6,9 @@
 # @Project : xuxiaobingclass
 #字典  {}   关键字 dict
 # a={}  空字典     格式   key  :value
-a={"name":"许小兵",}
+a={"name":"许小兵","age":30,"money":99.99,"score":[100,80,100]}
 print(type(a))
+a["sex"]="man"
+a["name"]="xixin"
 print(a)
+print(a['name'])
