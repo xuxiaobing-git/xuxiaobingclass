@@ -19,3 +19,4 @@ print("字典里面的姓名是：{0}".format(a["name"]))
 #删除字典元素
 a.pop("age")
 print("删除age之后的字典：{}".format(a))
+5562
