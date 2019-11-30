@@ -13,5 +13,15 @@ print(a)
 a.insert(0,"许小兵")
 print(a)
 #修改列表的值
-a[-1]="我要学Python"
+#  a[-1]="我要学Python"
+# print(a)
+#删除列表元素   .pop()   删除列表最后面一个元素
+# a.pop()
+# print(a)
+a.pop(2)
 print(a)
+ #排序
+b=[8,92,6,78,2,3]
+# b.sort()
+b.reverse()
+print(b)
