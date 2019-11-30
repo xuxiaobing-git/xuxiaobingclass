@@ -12,3 +12,10 @@ a["sex"]="man"
 a["name"]="xixin"
 print(a)
 print(a['name'])
+a["name"]="学习的机会"
+a["class"]="moju092"
+print("修改之后的字典值：{}".format(a))
+print("字典里面的姓名是：{0}".format(a["name"]))
+#删除字典元素
+a.pop("age")
+print("删除age之后的字典：{}".format(a))
