@@ -19,4 +19,10 @@ print("字典里面的姓名是：{0}".format(a["name"]))
 #删除字典元素
 a.pop("age")
 print("删除age之后的字典：{}".format(a))
-5562
+print(a.keys())
+print(a.values())
+print(a.items())
+c={"name":"伪证","age":"未知"}
+a.update(c)
+print(a)
+print(a["score"][0])
