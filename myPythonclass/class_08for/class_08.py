@@ -8,8 +8,8 @@ s="lemon"  #字符串
 L=["lemon","python"]#列表
 t=(1,2,3,0,4,"hi")#元组
 d={"name":"柠檬班冰冰","course":"pyhon全栈自动化"}#字典
-for item in d:    #遍历in后面的数据类型里面的每一个元素   依次挨个
-    print("****item****:",item)
+for em in d:    #遍历in后面的数据类型里面的每一个元素   依次挨个
+    print("****em****:",em)
 for item in d.values():
     print("****item*********:",item)
 for item in d:

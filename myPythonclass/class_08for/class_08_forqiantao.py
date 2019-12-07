@@ -19,6 +19,6 @@ for g in  range(1,6):
     print("") #控制for循环结束后    换行
 #99乘法表
 for i in  range(1,10):#控制行数
-    for j in range(1,i+1): #i=1  j=1     i=2  j=1  2    i=3   j=1  2   3  
-        print("{0}*{1}={2}   ".format(i,j,i*j),end="") #控制次for循环里面的内容不换行
+    for j in range(1,i+1): #i=1  j=1     i=2  j=1  2    i=3   j=1  2   3
+        print("{0}*{1}={2}   ".format(j,i,i*j),end="") #控制次for循环里面的内容不换行
     print("")#for循环结束时换行
