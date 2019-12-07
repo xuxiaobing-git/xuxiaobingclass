@@ -9,7 +9,7 @@
 # #     print("已经18啦")
 # # else:
 # #     print(age)
-color="999"
+color="yellow"
 if color=="red":
     print("红灯停")
 elif color=="green":
