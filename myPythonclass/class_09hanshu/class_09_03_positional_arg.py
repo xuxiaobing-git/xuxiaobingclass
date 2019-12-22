@@ -5,11 +5,11 @@
 # @File : class_09_03_positional_arg.py
 # @Project : xuxiaobingclass
 
-def  print_msg(a,b):#位置参数  /形参
-    print(a)
-    print(b)
-    print("我谁都不用")
-print_msg("a：a的值","b:b的值")
+# def  print_msg(a,b):#位置参数  /形参
+#     print(a)
+#     print(b)
+#     print("我谁都不用")
+# print_msg("a：a的值","b:b的值")
 #print_msg("你好啊","我不好")
 #如果是位置参数：有几个参数，就要传递几个参数，例如 print_msg("a：a的值") 会报错
 ##############位置参数是按顺序赋值
@@ -21,5 +21,11 @@ def add_3(m,n,k):
          count+=i
     print("求和结果是(函数内部)：",count)
     return  count
-result=add_3(0,101,2)
+result=add_3(0,101,1)
 print("计算结果是：",result)
+
+# flag = 1
+#
+# while (flag): print('欢迎访问菜鸟教程!')
+#
+# print("Good bye!")
