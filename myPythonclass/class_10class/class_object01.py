@@ -13,6 +13,7 @@ class  Boyfriend:
     @classmethod
     def  cooking(cls):
         print("会做饭")
+    #@staticmethod
     def  hiking(self):
          print(self.name+"喜欢户外运动")
     def  swimming(self):
