@@ -27,4 +27,3 @@ bf.cooking()
 Boyfriend.cooking()
 print(Boyfriend.age)
 bf.hiking()
-0000
