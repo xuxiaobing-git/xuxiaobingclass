@@ -9,12 +9,13 @@
 # #     print("已经18啦")
 # # else:
 # #     print(age)
-color="yellow"
+color=input("请输入红绿灯颜色")
+#color="yellow"
 if color=="red":
     print("红灯停")
 elif color=="green":
-    print("路灯行")
+    print("绿灯行")
 elif color=="yellow":
     print("黄灯停一停")
 else:
-    print(color)
+    print("无此信号灯")
