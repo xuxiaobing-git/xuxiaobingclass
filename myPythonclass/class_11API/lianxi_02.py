@@ -9,7 +9,7 @@ from random import *
 from math import *
 
 def tree(n,l):
-    pd()#下笔
+    pd()#下笔之后
     #阴影效果
     t = cos(radians(heading()+45))/8+0.25
     pencolor(t,t,t)
