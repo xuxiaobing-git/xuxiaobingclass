@@ -9,6 +9,9 @@
 # #     print("已经18啦")
 # # else:
 # #     print(age)
+"""
+if  条件判断语句
+"""
 color=input("请输入红绿灯颜色")
 #color="yellow"
 if color=="red":
