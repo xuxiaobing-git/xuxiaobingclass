@@ -23,14 +23,23 @@ if  条件判断语句
 # else:
 #     print("无此信号灯")
 
-"""登录小案例"""
-users = {"user":"xuxiaobing","pwd":"123456"}
-user = input("请输入登录名：")
-pwd = input("请输入密码：")
-if user==users.get("user"):
-    if pwd == users.get("pwd"):
-        print("登录成功")
-    else:
-        print("密码不对")
-else:
-    print("账号不正确")
+# """登录小案例"""
+# users = {"user": "xuxiaobing", "pwd": "123456"}
+# user = input("请输入登录名：")
+# pwd = input("请输入密码：")
+# if user == users.get("user"):
+#     if pwd == users.get("pwd"):
+#         print("登录成功")
+#     else:
+#         print("密码不对")
+# else:
+#     print("账号不正确")
+n = 100
+
+Sum = 0
+counter = 1
+while counter <= n:
+    Sum = Sum + counter
+    counter += 1
+
+print("1 到 %d 之和为: %d" % (n, Sum))
