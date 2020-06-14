@@ -14,12 +14,12 @@
 # while a > 0:
 #     print("我是while循环{}".format(a))
 #     a -= 1
-# b=1
-# sum=0
-# while  b<101:
-#     sum=sum+b
-#     b=b+1
-# print("1-100的整数和：{}".format(sum))
+b = 1
+Sum = 0
+while b < 101:
+    Sum = Sum + b
+    b = b + 1
+print("1-100的整数和：{}".format(Sum))
 # a = 10
 # while True:
 #     a -= 1  # 每次对a减去1  a=a-1
