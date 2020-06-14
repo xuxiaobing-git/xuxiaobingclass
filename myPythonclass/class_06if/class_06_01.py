@@ -35,7 +35,6 @@ if  条件判断语句
 # else:
 #     print("账号不正确")
 n = 100
-
 Sum = 0
 counter = 1
 while counter <= n:
