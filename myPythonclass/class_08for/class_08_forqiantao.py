@@ -10,12 +10,12 @@ list_1 = [[2, 5, 9, 7, ], [12, 45, 19, 16, 13, ]]
 for item in list_1:
     for value in item:
         print("数据：", value)
-        print("数据类型", type(value))
+        # print("数据类型", type(value))
 # 打印出三角形  底边长度为5
 for g in range(1, 6):
     # print("现在是第{}行".format(g))
     for p in range(g):
-        print("*", end="")  # 控制不换行输出
+        print("* ", end="")  # 控制不换行输出
     print("")  # 控制for循环结束后    换行
 # 99乘法表
 for i in range(1, 10):  # 控制行数
