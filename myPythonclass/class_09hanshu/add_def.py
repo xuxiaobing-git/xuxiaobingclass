@@ -15,7 +15,20 @@ def add_1(a, b):
     return Sum
 
 
+def count_num():
+    count = 0
+    for a in range(1,5):
+        for b in range(1,5):
+            for c in range(1,5):
+                if a !=b and c !=b and a != c:
+                   print(a,b,c)
+                   count += 1
+    print("一共{}个组合".format(count))
+
+
+
 m = int(input("请输入第一个数值："))
 n = int(input("请输入第二个数值："))
 Num = add_1(m, n)
 print("{}和{}的积等于:{}".format(m, n, Num))
+count_num()
