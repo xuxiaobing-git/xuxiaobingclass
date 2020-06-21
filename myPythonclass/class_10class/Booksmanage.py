@@ -7,12 +7,38 @@
 @Software: PyCharm
 """
 import time
+import os
 
-books = [{"id": "1", "name": "天龙八部", "position": "A01-01B-01"},
-         {"id": "2", "name": "水浒传", "position": "A01-01B-02"},
-         {"id": "3", "name": "西游记", "position": "A01-01B-03"},
-         {"id": "4", "name": "红楼梦", "position": "A01-01B-04"},
-         {"id": "5", "name": "三国演义", "position": "A01-01B-05"}]
+# books = [{"id": "1", "name": "天龙八部", "position": "A01-01B-01"},
+#          {"id": "2", "name": "水浒传", "position": "A01-01B-02"},
+#          {"id": "3", "name": "西游记", "position": "A01-01B-03"},
+#          {"id": "4", "name": "红楼梦", "position": "A01-01B-04"},
+#          {"id": "5", "name": "三国演义", "position": "A01-01B-05"}]
+def read_data():
+    if os.path.exists("books.txt"):
+        with open("books.txt", "r", encoding="utf8") as f:
+            cases = f.readlines()
+        global books
+        books = []
+        for case in cases:
+            case = case.replace("\n", "")
+            DaTas = case.split("，")
+            dic = {}
+            for i in DaTas:
+                data = i.split("：")
+                dic[data[0]] = data[1]
+            books.append(dic)
+    else:
+        print("系统暂无书籍")
+
+
+def write_data():
+    if os.path.exists("books.txt"):
+        os.remove("books.txt")
+    for i in books:
+        newBook = ("id：{}，name：{}，position：{}".format(i["id"], i["name"], i["position"]))
+        with open("books.txt", "a", encoding="utf8") as f:
+            f.write(str(newBook + '\n'))
 
 
 def print_menu():
@@ -24,12 +50,6 @@ def print_menu():
 
 
 def add_book():
-    # 添加图书
-    # new_book = dict(
-    #     #     id=input("请输入图书编号："),
-    #     #     name=input("请输入图书名称："),
-    #     #     position=input("请输入图书位置：")
-    #     # )
     new_book = {}  # 创建字典存储图书编号
     while True:
         new_book["id"] = input("请输入图书编号")
@@ -86,6 +106,7 @@ def all_book():
 
 
 def main2():
+    read_data()
     print("~~~~~~~欢迎使用图书管理系统~~~~~~~")
     while True:
         print_menu()  # 打印菜单
@@ -102,6 +123,7 @@ def main2():
             break
         else:
             print("您选择的有误，请重新选择")
+    write_data()
 
 
 if __name__ == "__main__":
