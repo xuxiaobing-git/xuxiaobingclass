@@ -17,14 +17,13 @@ def add_1(a, b):
 
 def count_num():
     count = 0
-    for a in range(1,5):
-        for b in range(1,5):
-            for c in range(1,5):
-                if a !=b and c !=b and a != c:
-                   print(a,b,c)
-                   count += 1
+    for a in range(1, 5):
+        for b in range(1, 5):
+            for c in range(1, 5):
+                if a != b and c != b and a != c:
+                    print(a, b, c)
+                    count += 1
     print("一共{}个组合".format(count))
-
 
 
 m = int(input("请输入第一个数值："))
