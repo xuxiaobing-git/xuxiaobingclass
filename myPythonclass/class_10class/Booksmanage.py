@@ -14,12 +14,12 @@ import os
 #          {"id": "3", "name": "西游记", "position": "A01-01B-03"},
 #          {"id": "4", "name": "红楼梦", "position": "A01-01B-04"},
 #          {"id": "5", "name": "三国演义", "position": "A01-01B-05"}]
+books = []  # 初始化变量
+
 def read_data():
     if os.path.exists("books.txt"):
         with open("books.txt", "r", encoding="utf8") as f:
             cases = f.readlines()
-        global books
-        books = []
         for case in cases:
             case = case.replace("\n", "")
             DaTas = case.split("，")
