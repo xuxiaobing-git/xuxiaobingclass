@@ -20,12 +20,12 @@
 
 # str4 = "今天收来{}，交来学费{:.2f}，日期{}"
 # print(str4.format("小明",8000, "2020606"))
-name = "小明"
-age = 18
-money = 99.09
-str1 = "这位同学{}，今年{}，银行卡余额{}"
-print(str1.format(name , age , money))
-print ("{} 对应的位置是 {{0}}".format("runoob"))
+# name = "小明"
+# age = 18
+# money = 99.09
+# str1 = "这位同学{}，今年{}，银行卡余额{}"
+# print(str1.format(name, age, money))
+# print("{} 对应的位置是 {{0}}".format("rundoc"))
 """
 3.1415926	    {:.2f}	    3.14	    保留小数点后两位
 3.1415926	    {:+.2f}	    +3.14	    带符号保留小数点后两位
@@ -51,3 +51,21 @@ print ("{} 对应的位置是 {{0}}".format("runoob"))
 + 表示在正数前显示 +，负数前显示 -；  （空格）表示在正数前加空格
 b、d、o、x 分别是二进制、十进制、八进制、十六进制          
 """
+List = [1, 2, 3, 4, 66, 7, 8, 5, 4, 2, 3, 4, 5, 6, 78, 98, 6, 2, 3, 45, 56, 2, 5, 65, 6, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,
+        3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 66, 7, 7, 7, 78, 8, 8, 8]
+# 列表去重后得新列表New_list
+New_set = set()
+for i in List:
+    New_set.add(i)
+New_list = list(New_set)
+print(New_list)
+
+# 实现列表内元素两两相加求和
+Len_1 = len(New_list)  # 13
+for i in range(0, Len_1):
+    m = New_list[i]
+    for p in range(i+1, Len_1 - 1):
+        n = New_list[p]
+        Sum = m + n
+        if Sum == 10:
+            print(m, n)
