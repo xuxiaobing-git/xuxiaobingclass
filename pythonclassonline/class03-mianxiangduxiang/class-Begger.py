@@ -34,8 +34,11 @@ class Begger:
 
 if __name__ == '__main__':
     zm = Begger('古墓派掌门', '18', -10)
+    yg = Begger("华山派","52",-20)
     zm.beg()
     print("小乞丐个数：{}".format(Begger.count))
     #   print(zm.name)
     zm.beg_skill()
     Begger.beg_counter()
+    yg.beg()
+    yg.beg_counter()
