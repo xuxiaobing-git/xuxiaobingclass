@@ -57,5 +57,10 @@ res=str_1.upper()
 res2=str_2.lower()
 print("转换成大写:{}".format(res))
 print("转换成小写：{}".format(res2))
+for i in range(1,5):
+    for j in range(1,5):
+        for k in range(1,5):
+            if( i != k ) and (i != j) and (j != k):
+                print(i,j,k)
 
 
