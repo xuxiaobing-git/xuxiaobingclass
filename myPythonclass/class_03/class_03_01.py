@@ -12,7 +12,7 @@ import random
 
 tuple_1 = (1, 0.022, "lemon", (1, 2, 3), [11, 22, 33])
 # 元组里面可以是任何类型
-# print(type(tuple_1))
+print(type(tuple_1))
 print(tuple_1[2])
 print(tuple_1[-1])
 # 元组切片
