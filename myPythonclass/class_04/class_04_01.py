@@ -22,6 +22,6 @@ a.pop(2)
 print(a)
 # 排序
 b = [8, 92, 6, 78, 2, 3]
-# b.sort()
-b.reverse()
+b.sort()
+#b.reverse()
 print(b)

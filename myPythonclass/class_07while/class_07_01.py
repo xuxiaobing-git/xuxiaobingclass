@@ -28,7 +28,8 @@ print("1-100的整数和：{}".format(Sum))
 #         continue
 #     else:
 #         break
-while True:
+count = 2  #增加循环次数
+while count:
     users = {"user": "admin", "pwd": "1234"}
     user = input("请输入登录名：")
     pwd = input("请输入密码：")
@@ -39,4 +40,6 @@ while True:
         else:
             print("密码不对")
     else:
+        count -= 1
+        print("你还有剩余{}次输入机会".format(count))
         print("账号不正确")
