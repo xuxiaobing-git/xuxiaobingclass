@@ -6,8 +6,7 @@ row = 1
 while row <= 9:
     col = 1
     while col <= row:
-        print("{0} * {1} = {2}".format(col, row, row * col), end="\t")
+        print("{1} * {0} ={2}".format(row, col, row * col), end="\t")
         col += 1
-    # print("{}".format(row))
     print("")
     row += 1
