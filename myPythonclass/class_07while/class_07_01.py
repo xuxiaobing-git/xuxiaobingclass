@@ -41,5 +41,5 @@ while count:
             print("密码不对")
     else:
         count -= 1
-        print("你还有剩余{}次输入机会".format(count))
         print("账号不正确")
+        print("你还有剩余{}次输入机会".format(count))
