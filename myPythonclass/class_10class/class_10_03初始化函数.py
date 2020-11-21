@@ -9,7 +9,7 @@ def coding(language):
 
 
 class Boyfriend:
-    # 属性
+    # 属性666
     def __init__(self, height, money, name, age):
         self.height = height
         self.money = money
