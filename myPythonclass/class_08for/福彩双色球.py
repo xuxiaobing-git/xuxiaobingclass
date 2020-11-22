@@ -21,18 +21,25 @@ double_balls = {'红球': [], '蓝球': []}  # 系统自动生成的票
 reds = [i for i in range(1, 34)]  # 所有红球
 blues = [i for i in range(1, 17)]  # 所有篮球
 count = 0
-n = 0
-while n <= 5:
-    while count < 6:
-        red_ball = random.choice(reds)  # 随机选取红球中的一个数
-        if red_ball in double_balls["红球"]:
-            continue
-        else:
-            double_balls["红球"].append(red_ball)
-            count += 1
-
-    print(double_balls["红球"])
-    n += 1
-    print("")
-
-# print(reds)
+num = 0
+# 红球随机生成
+while count < 6:
+    red_ball = random.choice(reds)  # 随机选取红球中的一个数
+    if red_ball in double_balls["红球"]:
+        continue
+    else:
+        double_balls["红球"].append(red_ball)
+        count += 1
+# 篮球随机生成
+blue_ball = random.choice(blues)
+double_balls["蓝球"].append(blue_ball)
+# 红球升序排列
+red = double_balls['红球']
+red.sort()
+blue = double_balls["蓝球"]
+print("红球：{} 蓝球：{}".format(red, blue))
+# 清空
+blue.pop(0)
+for item in range(0, 6):
+    red.pop(0)
+print(double_balls)

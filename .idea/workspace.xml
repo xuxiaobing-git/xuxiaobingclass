@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7b1d217-35e1-47b1-b280-bfc35cd4afbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myPythonclass/class_08for/福彩双色球.py" afterDir="false" />
+    <list default="true" id="cb68c76c-41b0-4447-92f3-c3e6c7425229" name="Default" comment="写个乘法表练练手0">
+      <change afterPath="$PROJECT_DIR$/myPythonclass/class_08for/选彩票.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPythonclass/class_09hanshu/class_09_03_positional_arg.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_09hanshu/class_09_03_positional_arg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_08for/福彩双色球.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_08for/福彩双色球.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -105,18 +104,6 @@
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportQtDebugging" value="false" />
     <option name="myPyQtBackend" value="PyQt4" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.福彩双色球">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -226,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="福彩双色球" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="福彩双色球" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xuxiaobingclass" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,6 +227,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/福彩双色球.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="选彩票" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xuxiaobingclass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_08for" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/选彩票.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,7 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="add_def" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_04_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xuxiaobingclass" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,12 +287,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_09hanshu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_09hanshu/add_def.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_04/class_04_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,7 +301,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_08_forqiantao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xuxiaobingclass" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,29 +314,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/class_08_forqiantao.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="class_09_03_positional_arg" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="xuxiaobingclass" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_09hanshu" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_09hanshu/class_09_03_positional_arg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/class_08.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -397,29 +384,30 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.class_08_forqiantao" />
       <item itemvalue="Python.九九乘法表" />
-      <item itemvalue="Python.add_def" />
-      <item itemvalue="Python.class_09_03_positional_arg" />
       <item itemvalue="Python.福彩双色球" />
+      <item itemvalue="Python.class_08" />
+      <item itemvalue="Python.class_04_01" />
+      <item itemvalue="Python.选彩票" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.福彩双色球" />
-        <item itemvalue="Python.class_08_forqiantao" />
-        <item itemvalue="Python.class_09_03_positional_arg" />
-        <item itemvalue="Python.add_def" />
+        <item itemvalue="Python.选彩票" />
+        <item itemvalue="Python.class_04_01" />
+        <item itemvalue="Python.class_08" />
         <item itemvalue="Python.九九乘法表" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -578,14 +566,7 @@
       <option name="project" value="LOCAL" />
       <updated>1605971902125</updated>
     </task>
-    <task id="LOCAL-00022" summary="写个乘法表练练手ok">
-      <created>1606023844870</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1606023844870</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,13 +574,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -626,8 +606,7 @@
     <MESSAGE value="11.15663" />
     <MESSAGE value="11.21" />
     <MESSAGE value="写个乘法表练练手" />
-    <MESSAGE value="写个乘法表练练手ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="写个乘法表练练手ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="写个乘法表练练手" />
   </component>
   <component name="WindowStateProjectService">
     <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1605971896023">
@@ -638,22 +617,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605949742798" />
-    <state width="1515" height="191" key="GridCell.Tab.0.bottom" timestamp="1605972509652">
+    <state width="1515" height="191" key="GridCell.Tab.0.bottom" timestamp="1606050323311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605972509652" />
-    <state width="1515" height="191" key="GridCell.Tab.0.center" timestamp="1605972509652">
+    <state width="1515" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606050323311" />
+    <state width="1515" height="191" key="GridCell.Tab.0.center" timestamp="1606050323311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605972509652" />
-    <state width="1515" height="191" key="GridCell.Tab.0.left" timestamp="1605972509652">
+    <state width="1515" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606050323311" />
+    <state width="1515" height="191" key="GridCell.Tab.0.left" timestamp="1606050323311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605972509652" />
-    <state width="1515" height="191" key="GridCell.Tab.0.right" timestamp="1605972509652">
+    <state width="1515" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606050323311" />
+    <state width="1515" height="191" key="GridCell.Tab.0.right" timestamp="1606050323311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605972509652" />
+    <state width="1515" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606050323311" />
     <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1605971258239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
