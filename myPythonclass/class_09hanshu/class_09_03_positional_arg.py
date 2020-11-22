@@ -5,7 +5,7 @@
 # @File : class_09_03_positional_arg.py
 # @Project : xuxiaobingclass
 
-def print_msg(a, b):  # 位置参数  /形参
+def print_msg(a, b):  # 位置参数 /形参
     print(a)
     print(b)
     print("我谁都不用")
