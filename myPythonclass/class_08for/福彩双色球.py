@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 """
-@File    : 01_福彩双色球.py
+@File    : 福彩双色球.py
 @Time    : 2020/11/22 13:58
 @Author  : XuXiaoBing
 @Email   : 676308756@qq.com
@@ -15,17 +15,17 @@
 6、 打印选中结果
 7、举例说明：05、06、14、16、19、27、--10
 """
-# import random
+import random
 
 
-def double_Play():
+def double_Play(num):
     """双色球机选系统"""
 
     double_balls = {'红球': [], '蓝球': []}  # 系统自动生成的票
     reds = [i for i in range(1, 34)]  # 所有红球
     blues = [i for i in range(1, 17)]  # 所有篮球
-    num = input("请输入机选多少注彩票：")
-    num = int(num)
+    # num = input("请输入机选多少注彩票：")
+    # num = int(num)
     p = 1
     while p <= num:
         count = 0
