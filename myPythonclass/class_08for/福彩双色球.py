@@ -19,7 +19,9 @@ import random
 
 
 def double_Play(num):
-    """双色球机选系统"""
+    """双色球机选系统
+    :param num: 多少注彩票
+    """
 
     double_balls = {'红球': [], '蓝球': []}  # 系统自动生成的票
     reds = [i for i in range(1, 34)]  # 所有红球
