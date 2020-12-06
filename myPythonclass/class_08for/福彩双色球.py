@@ -47,9 +47,10 @@ def double_Play(num):
         blue = double_balls["蓝球"]
         print("红球：{}   蓝球：{}".format(red, blue))
         # 清空
-        blue.pop(0)
-        for item in range(0, 6):
-            red.pop(0)
+        blue.pop(0)  # 清空篮球
+        red.clear()  # 清空红球
+        # for item in range(0, 6):
+        #     red.pop(0)
         # print(double_balls)
         p += 1
 

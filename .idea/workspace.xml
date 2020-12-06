@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb68c76c-41b0-4447-92f3-c3e6c7425229" name="Default" comment="封装">
+    <list default="true" id="cb68c76c-41b0-4447-92f3-c3e6c7425229" name="Default" comment="封装2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myPythonclass/class_08for/福彩双色球.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_08for/福彩双色球.py" afterDir="false" />
     </list>
@@ -111,7 +111,7 @@
     <option name="mySupportQtDebugging" value="false" />
     <option name="myPyQtBackend" value="PyQt4" />
   </component>
-  <component name="RunManager" selected="Python.class_09_01">
+  <component name="RunManager" selected="Python.选彩票">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,7 +197,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="九九乘法表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="选彩票" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xuxiaobingclass" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,7 +210,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/九九乘法表.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/选彩票.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -529,19 +529,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.九九乘法表" />
       <item itemvalue="Python.class_04_01" />
       <item itemvalue="Python.class_08" />
       <item itemvalue="Python.class_09_01" />
       <item itemvalue="Python.random" />
+      <item itemvalue="Python.选彩票" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.选彩票" />
         <item itemvalue="Python.class_09_01" />
         <item itemvalue="Python.random" />
         <item itemvalue="Python.class_04_01" />
         <item itemvalue="Python.class_08" />
-        <item itemvalue="Python.九九乘法表" />
       </list>
     </recent_temporary>
   </component>
@@ -725,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606145383084</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="封装2">
+      <created>1607004185067</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607004185067</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -768,6 +775,7 @@
     <MESSAGE value="选彩票" />
     <MESSAGE value="选彩票23" />
     <MESSAGE value="封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装" />
+    <MESSAGE value="封装2" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装2" />
   </component>
 </project>
