@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb68c76c-41b0-4447-92f3-c3e6c7425229" name="Default" comment="清空规则优化">
+    <list default="true" id="cb68c76c-41b0-4447-92f3-c3e6c7425229" name="Default" comment="2021年新的开始">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_01/class_01_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_01/class_01_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -555,13 +556,11 @@
       <item itemvalue="Python.选彩票" />
       <item itemvalue="Python.hanshuyu_01" />
       <item itemvalue="Python.add_def" />
-      <item itemvalue="Python.随机生成汉字" />
       <item itemvalue="Python.class_kwargs" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.class_kwargs" />
-        <item itemvalue="Python.随机生成汉字" />
         <item itemvalue="Python.add_def" />
         <item itemvalue="Python.hanshuyu_01" />
         <item itemvalue="Python.选彩票" />
@@ -755,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607004185067</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="2021年新的开始">
+      <created>1613908407012</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1613908407012</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -799,6 +805,7 @@
     <MESSAGE value="选彩票23" />
     <MESSAGE value="封装" />
     <MESSAGE value="封装2" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装2" />
+    <MESSAGE value="2021年新的开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021年新的开始" />
   </component>
 </project>
