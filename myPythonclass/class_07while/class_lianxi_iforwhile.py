@@ -9,13 +9,13 @@
 # 商品折扣的案例，此处没有考虑金额为小数的情况，有待优化
 import random
 
-Money = int(input("请输入购买金额："))
+Money = float(input("请输入购买金额："))
 if 0 < Money < 50:
     print("您的购买无折扣")
 elif 50 <= Money <= 100:
-    print("折扣为10%，您需要支付{}元".format(Money - Money * 0.1))
+    print("折扣为10%，您需要支付{:.1f}元".format(Money - Money * 0.1))
 elif Money > 100:
-    print("折扣为20%，您需要支付{}元".format(Money - Money * 0.2))
+    print("折扣为20%，您需要支付{:.1f}元".format(Money - Money * 0.2))
 else:
     print("您输入的金额有误")
 # 判断输入的字符是不是回文数

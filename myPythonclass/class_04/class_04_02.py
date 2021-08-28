@@ -10,7 +10,7 @@ a = {"name": "许小兵", "age": 30, "money": 99.99, "score": [100, 80, 100]}
 print(type(a))
 # 修改元素
 a["sex"] = "man"
-a["name"] = "xixin"
+a["name"] = "Mixin"
 print(a)
 # 查询元素 1.键获取   2，get 方法
 print(a['name'])

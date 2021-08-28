@@ -5,8 +5,9 @@
 # @File : class_02_01.py
 # @Project : xuxiaobingclass
 
-#字符串的查找 find()
-str_1="lemon"
-str_2="python"
-res=str_1.find("o")
+# 字符串的查找 find()
+
+str_1 = "lemon"
+str_2 = "python"
+res = str_1.find("o")
 print("查找结果：{}".format(res))

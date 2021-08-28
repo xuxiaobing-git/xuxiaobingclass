@@ -28,7 +28,7 @@ print("1-100的整数和：{}".format(Sum))
 #         continue
 #     else:
 #         break
-count = 2  #增加循环次数
+count = 2  # 增加循环次数
 while count:
     users = {"user": "admin", "pwd": "1234"}
     user = input("请输入登录名：")

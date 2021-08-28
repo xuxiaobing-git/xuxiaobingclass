@@ -4,10 +4,9 @@
 # @Email : xu19890913@163.com
 # @File : class_04_01.py
 # @Project : xuxiaobingclass
-a = [1, 0.05, "lemonban", (1, 2, 3), [4, 5, 6]]
+a = [1, 0.05, "lemonban", (1, 2, 3), [4, 5, 6], "冷萌"]
 # 新增一个元素
 # append 加载列表的最后,每次只能添加一个元素
-a.append("冷萌")
 print(a)
 # insert（）添加元素到列表指定位置
 a.insert(0, "许小兵")
@@ -23,5 +22,5 @@ print(a)
 # 排序
 b = [8, 92, 6, 78, 2, 3]
 b.sort()
-#b.reverse()
+# b.reverse()
 print(b)

@@ -4,11 +4,11 @@
 # @Email : xu19890913@163.com
 # @File : class_06_01.py
 # @Project : xuxiaobingclass
-# age=56
-# # if  age>=18:
-# #     print("已经18啦")
-# # else:
-# #     print(age)
+age = 56
+if age >= 18:
+    print("已经18啦")
+else:
+    print(age)
 """
 if  条件判断语句
 """
@@ -24,16 +24,16 @@ if  条件判断语句
 #     print("无此信号灯")
 
 # """登录小案例"""
-# users = {"user": "xuxiaobing", "pwd": "123456"}
-# user = input("请输入登录名：")
-# pwd = input("请输入密码：")
-# if user == users.get("user"):
-#     if pwd == users.get("pwd"):
-#         print("登录成功")
-#     else:
-#         print("密码不对")
-# else:
-#     print("账号不正确")
+users = {"user": "xuxiang", "pwd": "123456"}
+user = input("请输入登录名：")
+pwd = input("请输入密码：")
+if user == users.get("user"):
+    if pwd == users.get("pwd"):
+        print("登录成功")
+    else:
+        print("密码不对")
+else:
+    print("账号不正确")
 n = 100
 Sum = 0
 counter = 1

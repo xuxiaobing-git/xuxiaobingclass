@@ -19,9 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb68c76c-41b0-4447-92f3-c3e6c7425229" name="Default" comment="2021年新的开始">
+    <list default="true" id="cb68c76c-41b0-4447-92f3-c3e6c7425229" name="Default" comment="2021年新的开始1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPythonclass/class_01/class_01_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_01/class_01_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_02/class_02_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_02/class_02_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_02/class_02_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_02/class_02_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_03/class_03_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_03/class_03_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_04/class_04_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_04/class_04_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_04/class_04_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_04/class_04_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_06if/class_06_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_06if/class_06_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_07while/class_07_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_07while/class_07_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/class_07while/class_lianxi_iforwhile.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_07while/class_lianxi_iforwhile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +106,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -113,7 +120,7 @@
     <option name="mySupportQtDebugging" value="false" />
     <option name="myPyQtBackend" value="PyQt4" />
   </component>
-  <component name="RunManager" selected="Python.class_kwargs">
+  <component name="RunManager" selected="Python.选彩票">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,50 +220,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/选彩票.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="随机生成汉字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="xuxiaobingclass" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_11API" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_11API/随机生成汉字.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="随机生成汉字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="xuxiaobingclass" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_11API" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_11API/随机生成汉字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -419,7 +382,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="add_def" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_06_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xuxiaobingclass" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,12 +390,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_09hanshu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_06if" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_09hanshu/add_def.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_06if/class_06_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -441,7 +404,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_kwargs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_07_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xuxiaobingclass" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -449,12 +412,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_09hanshu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_07while" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_09hanshu/class_kwargs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_07while/class_07_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -463,7 +426,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hanshuyu_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xuxiaobingclass" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -471,12 +434,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_10class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_08for" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_10class/hanshuyu_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/class_08.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="class_lianxi_iforwhile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xuxiaobingclass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_07while" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_07while/class_lianxi_iforwhile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -554,16 +539,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.选彩票" />
-      <item itemvalue="Python.hanshuyu_01" />
-      <item itemvalue="Python.add_def" />
-      <item itemvalue="Python.class_kwargs" />
+      <item itemvalue="Python.class_06_01" />
+      <item itemvalue="Python.class_07_01" />
+      <item itemvalue="Python.class_08" />
+      <item itemvalue="Python.class_lianxi_iforwhile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.class_kwargs" />
-        <item itemvalue="Python.add_def" />
-        <item itemvalue="Python.hanshuyu_01" />
         <item itemvalue="Python.选彩票" />
+        <item itemvalue="Python.class_08" />
+        <item itemvalue="Python.class_lianxi_iforwhile" />
+        <item itemvalue="Python.class_07_01" />
+        <item itemvalue="Python.class_06_01" />
       </list>
     </recent_temporary>
   </component>
@@ -761,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613908407012</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2021年新的开始1">
+      <created>1614426716683</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1614426716684</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -806,6 +800,7 @@
     <MESSAGE value="封装" />
     <MESSAGE value="封装2" />
     <MESSAGE value="2021年新的开始" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021年新的开始" />
+    <MESSAGE value="2021年新的开始1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021年新的开始1" />
   </component>
 </project>
