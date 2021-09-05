@@ -4,6 +4,7 @@
 # @Email : xu19890913@163.com
 # @File : class_04_01.py
 # @Project : xuxiaobingclass
+
 a = [1, 0.05, "lemonban", (1, 2, 3), [4, 5, 6], "冷萌"]
 # 新增一个元素
 # append 加载列表的最后,每次只能添加一个元素

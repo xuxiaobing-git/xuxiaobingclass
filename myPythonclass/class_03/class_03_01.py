@@ -7,9 +7,9 @@
 
 
 # 元组   标志 ()  关键字 tuple
-# str_1="xuxiaobing"
-# str_2=str_1.replace("ing","m")
-# print("修改之后：{}".format(str_2))
+str_1="xuxiaobing"
+str_2=str_1.replace("ing","m")
+print("修改之后：{}".format(str_2))
 import random
 
 tuple_1 = (1, 0.022, "lemon", (1, 2, 3), [11, 22, 33])

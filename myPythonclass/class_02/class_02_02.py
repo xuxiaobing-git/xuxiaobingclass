@@ -5,7 +5,7 @@
 # @File : class_02_02.py
 # @Project : xuxiaobingclass
 
-# z字符串的替换 replace()
+#  字符串的替换 replace()
 str_1 = "mlemonmmmommmm"
 res = str_1.replace("o", "test", )
 print("替换后的结果：{}".format(res))
