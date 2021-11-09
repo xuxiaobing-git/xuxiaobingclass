@@ -28,7 +28,7 @@
 def add_3():
     count = 0
     for i in range(1, 101, 1):
-        count += i
+        count = count + i
     print("求和结果是(函数内部)：", count)
     return count, 6666
 

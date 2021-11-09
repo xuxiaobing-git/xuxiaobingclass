@@ -8,6 +8,7 @@ import turtle as T
 import random
 import time
 
+
 # 画樱花的躯干(60,t)
 def Tree(branch, t):
     time.sleep(0.0005)
@@ -39,6 +40,7 @@ def Tree(branch, t):
         t.backward(branch)
         t.down()
 
+
 # 掉落的花瓣
 def Petal(m, t):
     for i in range(m):
@@ -55,6 +57,7 @@ def Petal(m, t):
         t.backward(a)
         t.right(90)
         t.backward(b)
+
 
 # 绘图区域
 t = T.Turtle()

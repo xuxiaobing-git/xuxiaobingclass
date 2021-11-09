@@ -12,7 +12,7 @@ books = [{'id': '1', 'name': '天龙八部', 'position': 'A01-01B-01'},
          {'id': '3', 'name': '西游记', 'position': 'A01-01B-03'},
          {'id': '4', 'name': '红楼梦', 'position': 'A01-01B-04'},
          {'id': '5', 'name': '三国演义', 'position': 'A01-01B-05'},
-         {'id': '09', 'name': 'kkk', 'position': 'kkk///'}]
+         {'id': '09', 'name': 'kkk33', 'position': 'kkk///'}]
 
 if os.path.exists("books.txt"):
     os.remove("books.txt")

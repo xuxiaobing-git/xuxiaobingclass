@@ -4,8 +4,10 @@
 # @Email : xu19890913@163.com
 # @File : class_args.py
 # @Project : xuxiaobingclass
-#不定长参数/动态参数
-def  add(*args):
+# 不定长参数/动态参数
+def add(*args):
     print(args)
-    print("arge的类型",type(args))
-add(1,2,3,4,5,6,)
+    print("Arge的类型", type(args))
+
+
+add(1, 2, 3, 4, 5, 6, )

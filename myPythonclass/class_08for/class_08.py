@@ -31,4 +31,4 @@ print("0-100的求和：{}".format(count))
 
 f = ["我", "爱", "中", "国", "共", "产", "党"]
 for i in range(6, -1, -1):
-    print(f[i])
+    print(f[i],end="\t")
