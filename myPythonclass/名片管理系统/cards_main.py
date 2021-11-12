@@ -14,13 +14,13 @@ while True:
     if action_str in ["1", "2", "3"]:
         # 新建名片
         if action_str == "1":
-            pass
+            名片管理系统.cards_tools.new_card()
         # 查看全部名片
         elif action_str == "2":
-            pass
+            名片管理系统.cards_tools.show_all()
         # 查询名片
         elif action_str == "3":
-            pass
+            名片管理系统.cards_tools.search_card()
     #   输入0表示退出系统
     elif action_str == "0":
         print("您已退出系统，欢迎下次使用")
