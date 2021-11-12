@@ -1,19 +1,10 @@
-# -*- encoding: utf-8 -*-
-"""
-@File    : Booksmanage.py
-@Time    : 2020/6/21 11:25
-@Author  : xuxiaobing
-@Email   : 676308756@qq.com
-@Software: PyCharm
-"""
+# -*- coding: utf-8 -*-
+# @Time    : 2021/11/12 23:16
+# @File    : Booksmanage_tools.py.py
+# @Software: PyCharm
 import time
 import os
 
-# books = [{"id": "1", "name": "天龙八部", "position": "A01-01B-01"},
-#          {"id": "2", "name": "水浒传", "position": "A01-01B-02"},
-#          {"id": "3", "name": "西游记", "position": "A01-01B-03"},
-#          {"id": "4", "name": "红楼梦", "position": "A01-01B-04"},
-#          {"id": "5", "name": "三国演义", "position": "A01-01B-05"}]
 books = []  # 初始化变量
 
 
@@ -104,28 +95,3 @@ def all_book():
             print("编号：{}， 书名：{}， 位置：{}".format(book["id"], book["name"], book["position"]))
         print("查询完毕，返回主菜单")
     time.sleep(2)
-
-
-def main2():
-    read_data()
-    print("~~~~~~~欢迎使用图书管理系统~~~~~~~")
-    while True:
-        print_menu()  # 打印菜单
-        num = input("请输入您的选项")
-        if num == "1":
-            add_book()  # 添加图书
-        elif num == "2":
-            del_book()  # 删除图书
-        elif num == "3":
-            all_book()  # 显示所有图书
-        elif num == "4":
-            # 退出程序
-            print("谢谢使用，程序即将关闭")
-            break
-        else:
-            print("您选择的有误，请重新选择")
-    write_data()
-
-
-if __name__ == "__main__":
-    main2()

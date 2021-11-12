@@ -7,7 +7,7 @@
 @Software: PyCharm
 """
 import os
-books = [{'id': '1', 'name': '天龙八部', 'position': 'A01-01B-01'},
+books = [{'id': '1', 'name': '天龙八部二', 'position': 'A01-01B-01'},
          {'id': '2', 'name': '水浒传', 'position': 'A01-01B-02'},
          {'id': '3', 'name': '西游记', 'position': 'A01-01B-03'},
          {'id': '4', 'name': '红楼梦', 'position': 'A01-01B-04'},
