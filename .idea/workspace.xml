@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb68c76c-41b0-4447-92f3-c3e6c7425229" name="Default" comment="搭建系统框架-增加新建名片和显示全部的功能">
-      <change afterPath="$PROJECT_DIR$/myPythonclass/class_10class/Booksmanage_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPythonclass/class_10class/Booksmanage.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_10class/Booksmanage_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPythonclass/class_10class/books.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPythonclass/class_10class/file_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/class_10class/file_write.py" afterDir="false" />
+    <list default="true" id="cb68c76c-41b0-4447-92f3-c3e6c7425229" name="Default" comment="顺手修改之前的文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPythonclass/名片管理系统/cards_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPythonclass/名片管理系统/cards_tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +113,7 @@
     <option name="mySupportQtDebugging" value="false" />
     <option name="myPyQtBackend" value="PyQt4" />
   </component>
-  <component name="RunManager" selected="Python.Booksmanage_main">
+  <component name="RunManager" selected="Python.cards_main">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,6 +199,28 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="选彩票" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xuxiaobingclass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_08for" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/选彩票.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Booksmanage_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="xuxiaobingclass" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,28 +257,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:\xuxiaobingclass\myPythonclass\class_10class\Booksmanage_main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="选彩票" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="xuxiaobingclass" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myPythonclass/class_08for" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myPythonclass/class_08for/选彩票.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -467,6 +465,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.选彩票" />
       <item itemvalue="Python.cards_main" />
       <item itemvalue="Python.cards_tools" />
       <item itemvalue="Python.Booksmanage_main" />
@@ -475,11 +474,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cards_main" />
+        <item itemvalue="Python.cards_tools" />
         <item itemvalue="Python.Booksmanage_main (1)" />
         <item itemvalue="Python.file_write" />
         <item itemvalue="Python.Booksmanage_main" />
-        <item itemvalue="Python.cards_main" />
-        <item itemvalue="Python.cards_tools" />
       </list>
     </recent_temporary>
   </component>
@@ -719,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636730037103</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="顺手修改之前的文件">
+      <created>1636731538477</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1636731538477</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -744,7 +750,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="登录案例" />
     <MESSAGE value="组合" />
     <MESSAGE value="33" />
     <MESSAGE value="读取文件" />
@@ -769,33 +774,38 @@
     <MESSAGE value="创建名片管理系统框架" />
     <MESSAGE value="搭建系统框架-功能菜单" />
     <MESSAGE value="搭建系统框架-增加新建名片和显示全部的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建系统框架-增加新建名片和显示全部的功能" />
+    <MESSAGE value="顺手修改之前的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="顺手修改之前的文件" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="235" key="#Notifications" timestamp="1637491308211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="488" y="235" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1637491308211" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1636731423257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1636731423257" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1636730035003">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1636731536747">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1636730035003" />
-    <state width="1515" height="221" key="GridCell.Tab.0.bottom" timestamp="1636731469530">
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1636731536747" />
+    <state width="1515" height="221" key="GridCell.Tab.0.bottom" timestamp="1637505909738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636731469530" />
-    <state width="1515" height="221" key="GridCell.Tab.0.center" timestamp="1636731469530">
+    <state width="1515" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637505909738" />
+    <state width="1515" height="221" key="GridCell.Tab.0.center" timestamp="1637505909738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636731469530" />
-    <state width="1515" height="221" key="GridCell.Tab.0.left" timestamp="1636731469530">
+    <state width="1515" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1637505909738" />
+    <state width="1515" height="221" key="GridCell.Tab.0.left" timestamp="1637505909738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636731469530" />
-    <state width="1515" height="221" key="GridCell.Tab.0.right" timestamp="1636731469530">
+    <state width="1515" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1637505909738" />
+    <state width="1515" height="221" key="GridCell.Tab.0.right" timestamp="1637505909738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636731469530" />
+    <state width="1515" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1637505909738" />
     <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1636642108502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

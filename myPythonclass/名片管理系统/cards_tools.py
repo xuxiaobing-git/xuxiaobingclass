@@ -50,7 +50,7 @@ def show_all():
     for name in ["姓名", "手机号", "QQ号码", "邮箱"]:
         print(name, end="\t\t\t")
     print(" ")
-    print("="*60)
+    print("=" * 60)
     # 输出具体的名片信息
     for card_dict in card_list:
         print("{}\t\t\t{}\t\t\t{}\t\t\t{}".format(card_dict["name"],
@@ -62,4 +62,47 @@ def show_all():
 def search_card():
     """查询单个名片"""
     print("_" * 25)
-    print("查询单个名片")
+    find_name = input("请输入你要查找的姓名：")
+    for card_dict in card_list:
+        if card_dict["name"] == find_name:
+            print("姓名\t\t\t电话\t\t\tQQ\t\t\t邮箱")
+            print("{}\t\t\t{}\t\t\t{}\t\t\t{}".format(card_dict["name"],
+                                                      card_dict["phone"],
+                                                      card_dict["qq"],
+                                                      card_dict["email"]))
+            deal_card(card_dict, find_name)
+            break
+    else:
+        print("你查找的名片不存在")
+
+
+def deal_card(find_dict, find_name):
+    action_str = input("请选择你想要执行的操作："
+                       "【1】修改名片 "
+                       "【2】删除名片 "
+                       "【0】返回上一级 :")
+    if action_str == "1":
+        print("开始修改名片")
+        find_dict["name"] = input_card_info(find_dict["name"], "姓名：")
+        find_dict["phone"] = input_card_info(find_dict["phone"], "电话:")
+        find_dict["qq"] = input_card_info(find_dict["qq"], "QQ:")
+        find_dict["email"] = input_card_info(find_dict["email"], "邮箱")
+
+        print("{}的名片修改成功".format(find_name))
+    elif action_str == "2":
+        card_list.remove(find_dict)
+        print("已经成功删除{}名片".format(find_name))
+
+
+def input_card_info(dict_value, tip_message):
+    """
+    用户修改名片时输入的信息
+    :param dict_value:字典中原有的值
+    :param tip_message:用户手动输入信息
+    :return:如果用户输入了内容就返回输入内容，否则则使用原有的值
+    """
+    result_str = input(tip_message)
+    if len(result_str) > 0:
+        return result_str
+    else:
+        return dict_value
